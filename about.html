@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: chartreuse; 
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.card{
+    width: 300px;
+    margin: 26px;
+}
+
+.card img{
+    height: 370px;
+}
+
+.home {
+    padding-top: 5%;
+}
+
+.home a{
+    text-decoration: none;
+    padding: 5%;
+    color: black;
+    text-shadow: #555;
+    font-size: 20px;
+}
+
+
+h1{
+  text-align: center;
+  
+}
+
+
+.detail{
+  text-align: center;
+
+}
+
+.row{
+  margin-left: 100px;
+}
+
+
+
+
+
+.bg-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+  h1{
+    font-size: 27px;
+  }
+
+  .detail{
+  text-align: center;
+  font-size: 10px;
+  margin: 15px;
+}
+
+.row{
+  margin-left: 0px;
+}
+
+
+}
+
+
+
+</style>
+</head>
+<body>
+  <div class="bg-left">
+    <img src="images/bg-left.svg" alt="" />
+  </div>
+
+
+  
+    <div class="home"><a href="index.html"><b>Home</b></a></div>
+
+        <br><br><br>
+        <h1>Faculty and Staff Directory</h1>
+        <p class="detail">Beyond Words, Beyond Boundaries: English Department - A Tapestry of Literary Exploration</p>
+        <br>
+    
+<br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://files.panducollege.org/EMPLOYEE_DP/IMG-20220406-WA0002_Ps9FuOqVuO.jpg" alt="Dr. Parag Deka
+      " style="width:100%">
+      <div class="container">
+        <h2>Dr. Parag Deka
+          <br>.
+        </h2>
+        <p class="title">Assistant Professor </p>
+        <p><h5>parag.deka@rediffmail.com</h5></p>
+        <p><a href="tel:9435301476"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://files.panducollege.org/EMPLOYEE_DP/ARB%201_SA8IFhEDTh.jpg" alt="Dr. Ananda Ram Boro" style="width:100%">
+      <div class="container">
+        <h2>Dr. Ananda Ram <br>Boro</h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>boroanand7@gmail.com</h5></p>
+        <p><a href="tel:7002951410"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="https://files.panducollege.org/EMPLOYEE_DP/Passport%20photo%20Kalyan%20Deka_BhNFAsZch4.jpg" alt="Dr. Kalyan Deka
+      " style="width:100%">
+      <div class="container">
+        <h2>Dr. Kalyan <br>Deka
+        </h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5> kalyandeka12@gmail.com</h5></p>
+        <p><a href="tel:9957562556"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+  <img src="https://files.panducollege.org/EMPLOYEE_DP/IMG_20220401_152142_J33c6gV2yE.jpg" alt="Dr. Mallika Gogoi
+      " style="width:100%">
+      <div class="container">
+        <h2>Dr. Mallika 
+          <br> Gogoi
+        </h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>gogoimallika914@gmail.com</h5></p>
+        <p><a href="tel:8876894512"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://files.panducollege.org/EMPLOYEE_DP/IMG_4198_F83J6RVMTb.jpg" alt="Anandita Buragohain
+      " style="width:100%">
+      <div class="container">
+        <h2>Anandita <br>Buragohain 
+        </h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>anagohain30@gmail.com</h5></p>
+        <p><a href="tel:7002915877"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://panducollege.org/images/faculty/default.jpg" alt="Dr. Anjali Bora
+      " style="width:100%">
+      <div class="container">
+        <h2>Dr. Anjali Bora<br>. 
+        </h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>anjalibaishya0504@gmail.com</h5></p>
+        <p><a href="tel:8486987055"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://files.panducollege.org/EMPLOYEE_DP/Pallabi%20Konwar_8XvBglCZIW.jpg" alt="Pallabi Konwar
+      " style="width:100%">
+      <div class="container">
+        <h2>Pallabi <br>Konwar 
+        </h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>pallabi.konwar7@gmail.com</h5></p>
+        <p><a href="tel:N/A"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://files.panducollege.org/EMPLOYEE_DP/IMG-20230429-WA0052_dkAq9idz8d.jpg" alt="Dr. Bandita Talukdar
+      " style="width:100%">
+      <div class="container">
+        <h2>Dr. Bandita<br>Talukdar 
+        </h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>bandita.talukdar88@gmail.com</h5></p>
+        <p><a href="tel:9508192506"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
